@@ -1,23 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+import TypeIt from "typeit-react";
+import { PopupWidget } from "react-calendly";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="app">
+      <div>
+        <PopupWidget url="https://calendly.com/katyjane8" />
+      </div>
+      <div class="titlePage">
+      <TypeIt
+        options={{
+          speed: 250,
+          cursorSpeed: 1000,
+          lifeLike: true,
+          waitUntilVisible: true
+        }}
+        getBeforeInit={(instance) => {
+          instance
+            .type("katy welli", { delay: 600 })
+            .delete(2)
+            .pause(300)
+            .type('ycheck')
+            .pause(300)
+            .type('o?', { delay: 500 })
+            .pause(300)
+            .delete(8)
+            .pause(300)
+            .type('katy welyczko')
+            .break({ delay: 50 })
+            .type(' dot com', { delay: 300 })
+            .go();
+
+          // Remember to return it!
+          return instance;
+        }}
+      >
+      </TypeIt>
+    </div>
     </div>
   );
 }
