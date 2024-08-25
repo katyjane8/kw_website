@@ -10,9 +10,12 @@ const NavBar = () => {
                 <li>
                     <NavLink to="/about">About</NavLink>
                 </li>
+                <div class="right-text">
+                    Welcome to katywelyczko.com
+                </div>
             </ul>
         </nav>
     );
 };
 
-export {NavBar };
+export { NavBar };
