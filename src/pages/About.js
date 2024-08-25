@@ -11,6 +11,9 @@ const About = () => {
             <div class="button_slide slide_down">
                 <a href='https://www.linkedin.com/in/kathrine-welyczko/' target="_blank" rel="noreferrer">LINKEDIN</a>
             </div>
+            <div class="button_slide slide_down">
+                <a href='https://www.ravelry.com/projects/katyjane8' target="_blank" rel="noreferrer">RAVELRY</a>
+            </div>
         </div>
     )
 }

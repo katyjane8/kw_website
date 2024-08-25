@@ -28,6 +28,7 @@ body {
   display: grid;
   justify-content: center;
   gap: 10px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .button_slide {
