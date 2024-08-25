@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kw_website/static/css/main.8009b46f.css",
+    "main.js": "/kw_website/static/js/main.ff0a699d.js",
+    "index.html": "/kw_website/index.html",
+    "main.8009b46f.css.map": "/kw_website/static/css/main.8009b46f.css.map",
+    "main.ff0a699d.js.map": "/kw_website/static/js/main.ff0a699d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8009b46f.css",
+    "static/js/main.ff0a699d.js"
+  ]
+}
